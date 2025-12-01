@@ -1,0 +1,101 @@
+2025-11-24T02:31:55+00:00 DEBUG #5490 - [New Request] POST /AlphaSport/wp-json/wc-admin/settings/payments/providers
+2025-11-24T02:31:56+00:00 DEBUG #5490 - Webhook lock acquired for 'register'.
+2025-11-24T02:31:56+00:00 DEBUG #5490 - Webhook operation 'register' started.
+2025-11-24T02:31:57+00:00 DEBUG #5490 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-24T02:31:57+00:00 ERROR #5490 - Failed to delete webhooks: [Error] Not Found
+2025-11-24T02:31:57+00:00 INFO #5490 - Webhooks deleted.
+2025-11-24T02:31:58+00:00 DEBUG #5490 - POST https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Request Body: {"url":"https:\/\/localhost:8080\/AlphaSport\/wp-json\/paypal\/v1\/incoming","event_types":[{"name":"CHECKOUT.ORDER.APPROVED"},{"name":"CHECKOUT.ORDER.COMPLETED"},{"name":"CHECKOUT.PAYMENT-APPROVAL.REVERSED"},{"name":"PAYMENT.CAPTURE.REFUNDED"},{"name":"PAYMENT.AUTHORIZATION.VOIDED"},{"name":"PAYMENT.CAPTURE.REVERSED"},{"name":"PAYMENT.ORDER.CANCELLED"},{"name":"PAYMENT.CAPTURE.DENIED"},{"name":"PAYMENT.CAPTURE.COMPLETED"},{"name":"VAULT.PAYMENT-TOKEN.CREATED"},{"name":"VAULT.PAYMENT-TOKEN.DELETED"},{"name":"PAYMENT.CAPTURE.PENDING"},{"name":"PAYMENT.SALE.COMPLETED"},{"name":"PAYMENT.SALE.REFUNDED"},{"name":"BILLING.SUBSCRIPTION.CANCELLED"},{"name":"BILLING.PLAN.PRICING-CHANGE.ACTIVATED"},{"name":"CATALOG.PRODUCT.UPDATED"},{"name":"BILLING.PLAN.UPDATED"}]}
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-24T02:31:58+00:00 ERROR #5490 - Failed to subscribe webhooks: [Error] Not Found
+2025-11-24T02:31:58+00:00 DEBUG #5490 - Webhook lock released for 'register'.
+2025-11-24T02:32:15+00:00 DEBUG #9047 - [New Request] GET /AlphaSport/wp-admin/admin.php
+2025-11-24T02:32:15+00:00 DEBUG #9047 - GET https://api.woocommerce.com/integrations/ppc/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-24T02:32:15+00:00 WARNING #9047 - [Error] Not Found CONTEXT: {"args":{"method":"GET","headers":{"Authorization":"Bearer token","Content-Type":"application/json"}},"response":{"headers":{},"body":"{"statusCode":404,"error":"Not Found","message":"Not Found"}","response":{"code":404,"message":"Not Found"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}}
+2025-11-24T02:32:39+00:00 DEBUG #5380 - [New Request] GET /AlphaSport/wp-json/wc/v3/wc_paypal/webhooks
+2025-11-24T02:32:39+00:00 DEBUG #5380 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-24T02:36:45+00:00 DEBUG #2305 - [New Request] POST /AlphaSport/wp-json/wc/v3/wc_paypal/login_link
+2025-11-24T02:36:45+00:00 INFO #2305 - Generating onboarding URL for: production-express_checkout-usecardpayments
+2025-11-24T02:36:47+00:00 DEBUG #2305 - POST https://api.woocommerce.com/integrations/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"return_url":"http:\/\/localhost:8080\/AlphaSport\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcpToken=eyJrIjoicHJvZHVjdGlvbi1leHByZXNzX2NoZWNrb3V0LXVzZWNhcmRwYXltZW50cyIsInUiOjEsImgiOiI2ZGQwN2RkY2RlOTA1ZjIyMzI4YWEyZTQ1MzlmYTE1MCJ9","return_url_description":"Volver a tu tienda.","show_add_credit_card":true},"products":["PPCP","ADVANCED_VAULTING"],"capabilities":["PAYPAL_WALLET_VAULTING_ADVANCED"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","TRACKING_SHIPMENT_READWRITE","BILLING_AGREEMENT","VAULT","FUTURE_PAYMENT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 191706421f9a4
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2025-11-24T02:37:11+00:00 DEBUG #5609 - [New Request] POST /AlphaSport/wp-json/wc/v3/wc_paypal/login_link
+2025-11-24T02:37:11+00:00 DEBUG #5609 - Loaded onboarding URL from cache: production-express_checkout-usecardpayments
+2025-11-24T02:37:11+00:00 INFO #5609 - Using cached onboarding URL for: production-express_checkout-usecardpayments
+2025-11-24T02:37:11+00:00 DEBUG #1513 - [New Request] POST /AlphaSport/wp-json/wc/v3/wc_paypal/login_link
+2025-11-24T02:37:11+00:00 DEBUG #1513 - Loaded onboarding URL from cache: production-express_checkout-usecardpayments
+2025-11-24T02:37:11+00:00 INFO #1513 - Using cached onboarding URL for: production-express_checkout-usecardpayments
+2025-11-24T02:41:58+00:00 DEBUG #2473 - [New Request] POST /AlphaSport/wp-json/wc/v3/wc_paypal/authenticate/oauth
+2025-11-24T02:41:58+00:00 INFO #2473 - Storing one-time OAuth credentials... CONTEXT: {"shared_id":"BAAN-jas9_p06Z1L9oJq-rGHAvFoRT6VqCQIJJqSE15bAidyF1jKrznXRDJ4G_m_Q1O0IPVn4OOiAWRrPw","auth_code":"C21AANbrbGtm_PtGaznslc7mnWTvzPxhVD1_-acAhmBuI1Fi9dxoqUssFDdCD-QlqdxSd4uI-7cKldTDwEjQlKVesmZmJtkKg","use_sandbox":false}
+2025-11-24T02:48:40+00:00 DEBUG #2150 - [New Request] GET /AlphaSport/wp-json/wc/v3/wc_paypal/webhooks
+2025-11-24T02:48:40+00:00 DEBUG #2150 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-24T02:48:52+00:00 DEBUG #4620 - [New Request] POST /AlphaSport/wp-json/wc/v3/wc_paypal/login_link
+2025-11-24T02:48:52+00:00 DEBUG #4620 - Loaded onboarding URL from cache: production-express_checkout-usecardpayments
+2025-11-24T02:48:52+00:00 INFO #4620 - Using cached onboarding URL for: production-express_checkout-usecardpayments
+2025-11-24T02:49:06+00:00 DEBUG #5426 - [New Request] POST /AlphaSport/wp-json/wc/v3/wc_paypal/login_link
+2025-11-24T02:49:06+00:00 DEBUG #5426 - Loaded onboarding URL from cache: production-express_checkout-usecardpayments
+2025-11-24T02:49:06+00:00 INFO #5426 - Using cached onboarding URL for: production-express_checkout-usecardpayments
+2025-11-24T02:49:06+00:00 DEBUG #9410 - [New Request] POST /AlphaSport/wp-json/wc/v3/wc_paypal/login_link
+2025-11-24T02:49:06+00:00 DEBUG #9410 - Loaded onboarding URL from cache: production-express_checkout-usecardpayments
+2025-11-24T02:49:06+00:00 INFO #9410 - Using cached onboarding URL for: production-express_checkout-usecardpayments
+2025-11-24T02:53:49+00:00 DEBUG #9566 - [New Request] POST /AlphaSport/wp-json/wc/v3/wc_paypal/authenticate/oauth
+2025-11-24T02:53:49+00:00 INFO #9566 - Storing one-time OAuth credentials... CONTEXT: {"shared_id":"BAAR_jcBfFkV72eZBDKPDPMFq67BZ5ec-g_mC91gD8NJBRprp2jKGy4cFio0OOD0EpJtsnNdQhy1rh0ekM","auth_code":"C21AAP_h6Z6gMHD2Le_I5cSzltixCkUiRvppDKuKDQlP-Q1vWF3TkLkReRIxQpjj9bOJV12GxAUmhsPI5EktAJ1Zkh8orTz1g","use_sandbox":false}
+2025-11-24T02:58:26+00:00 DEBUG #9551 - [New Request] GET /AlphaSport/wp-json/wc/v3/wc_paypal/webhooks
+2025-11-24T02:58:26+00:00 DEBUG #9551 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-24T02:58:35+00:00 DEBUG #1025 - [New Request] POST /AlphaSport/wp-json/wc/v3/wc_paypal/login_link
+2025-11-24T02:58:35+00:00 DEBUG #1025 - Loaded onboarding URL from cache: production-express_checkout-usecardpayments
+2025-11-24T02:58:35+00:00 INFO #1025 - Using cached onboarding URL for: production-express_checkout-usecardpayments
