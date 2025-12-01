@@ -44,7 +44,7 @@ El proyecto está configurado y optimizado para ser ejecutado en entornos de ser
 ### III. Verificación y Acceso
 
 1.  **Credenciales de Conexión:** El archivo de configuración de WordPress (`wp-config.php`) ya viene preconfigurado con las credenciales por defecto de XAMPP:
-    * **Nombre de la BD:** `practica_wordpress`
+    * **Nombre de la BD:** `alpha_sport_db`
     * **Usuario de MySQL:** `root`
     * **Contraseña de MySQL:** (Vacía)
     
@@ -54,5 +54,5 @@ El proyecto está configurado y optimizado para ser ejecutado en entornos de ser
 
 2.  **Inicio del Sitio:** Una vez completados los pasos anteriores, la tienda en línea estará accesible mediante la siguiente URL:
     ```
-    http://localhost:8080/practica_wordpress
+    http://localhost:8080/AlphaSport
     ```
