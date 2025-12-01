@@ -1,0 +1,312 @@
+/*Glass 3*/
+/*Glass 4*/
+/*Glass 5*/
+/*Glass 6*/
+.premium-lq__glass1.premium-mega-content-container, .premium-lq__glass1.premium-sub-menu, .premium-lq__glass1.premium-menu-link, .premium-lq__glass1.pa-txt-sc__item-container {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.premium-lq__glass1 .wrap-cover .fields-in-cover,
+.premium-lq__glass1 .premium-button,
+.premium-lq__glass1 .premium-dual-header-first-span,
+.premium-lq__glass1 .countdown-amount {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.premium-box-lq__glass1 .premium-dual-header-second-header {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.premium-con-lq__glass1 {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.premium-con-lq__glass1-hover:hover {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+/*Glass 2*/
+.premium-lq__glass2.premium-mega-content-container, .premium-lq__glass2.premium-sub-menu, .premium-lq__glass2.premium-menu-link, .premium-lq__glass2.pa-txt-sc__item-container {
+  -webkit-backdrop-filter: blur(17px);
+  backdrop-filter: blur(17px);
+}
+.premium-lq__glass2 .wrap-cover .fields-in-cover,
+.premium-lq__glass2 .premium-button,
+.premium-lq__glass2 .premium-dual-header-first-span,
+.premium-lq__glass2 .countdown-amount {
+  -webkit-backdrop-filter: blur(17px);
+  backdrop-filter: blur(17px);
+}
+
+.premium-box-lq__glass2 .premium-dual-header-second-header {
+  -webkit-backdrop-filter: blur(17px);
+  backdrop-filter: blur(17px);
+}
+
+.premium-con-lq__glass2 {
+  -webkit-backdrop-filter: blur(17px);
+  backdrop-filter: blur(17px);
+}
+
+.premium-con-lq__glass2-hover:hover {
+  -webkit-backdrop-filter: blur(17px);
+  backdrop-filter: blur(17px);
+}
+
+/*Glass 3*/
+.premium-lq__glass3 {
+  /*
+  * Added to pseudo element for better compatibility with double layered effect.
+  */
+}
+.premium-lq__glass3.premium-mega-content-container, .premium-lq__glass3.premium-sub-menu, .premium-lq__glass3.premium-menu-link, .premium-lq__glass3.pa-txt-sc__item-container {
+  overflow: hidden !important;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(8px) url(#glass-distortion1);
+  backdrop-filter: blur(8px) url(#glass-distortion1);
+}
+.premium-lq__glass3 .wrap-cover .fields-in-cover,
+.premium-lq__glass3 .countdown-amount {
+  position: relative;
+  overflow: hidden !important;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(8px) url(#glass-distortion1);
+  backdrop-filter: blur(8px) url(#glass-distortion1);
+}
+.premium-lq__glass3 .premium-dual-header-first-span {
+  position: relative;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(8px) url(#glass-distortion1);
+  backdrop-filter: blur(8px) url(#glass-distortion1);
+}
+.premium-lq__glass3 .premium-button {
+  position: relative;
+  overflow: hidden !important;
+  isolation: isolate;
+}
+.premium-lq__glass3 .premium-button:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  -webkit-backdrop-filter: blur(8px) url(#glass-distortion1);
+  backdrop-filter: blur(8px) url(#glass-distortion1);
+  isolation: isolate;
+}
+
+.premium-box-lq__glass3 .premium-dual-header-second-header {
+  position: relative;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(8px) url(#glass-distortion1);
+  backdrop-filter: blur(8px) url(#glass-distortion1);
+}
+
+.premium-con-lq__glass3 {
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(8px) url(#glass-distortion1);
+  backdrop-filter: blur(8px) url(#glass-distortion1);
+}
+
+/*Glass 4*/
+.premium-lq__glass4.premium-mega-content-container, .premium-lq__glass4.premium-sub-menu, .premium-lq__glass4.premium-menu-link, .premium-lq__glass4.pa-txt-sc__item-container {
+  overflow: hidden !important;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(10px) url(#glass-distortion2);
+  backdrop-filter: blur(10px) url(#glass-distortion2);
+}
+.premium-lq__glass4 .wrap-cover .fields-in-cover,
+.premium-lq__glass4 .countdown-amount {
+  position: relative;
+  overflow: hidden !important;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(10px) url(#glass-distortion2);
+  backdrop-filter: blur(10px) url(#glass-distortion2);
+}
+.premium-lq__glass4 .premium-button {
+  position: relative;
+  overflow: hidden !important;
+  isolation: isolate;
+}
+.premium-lq__glass4 .premium-button:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  -webkit-backdrop-filter: blur(10px) url(#glass-distortion2);
+  backdrop-filter: blur(10px) url(#glass-distortion2);
+  isolation: isolate;
+}
+.premium-lq__glass4 .premium-dual-header-first-span {
+  position: relative;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(10px) url(#glass-distortion2);
+  backdrop-filter: blur(10px) url(#glass-distortion2);
+}
+
+.premium-box-lq__glass4 .premium-dual-header-second-header {
+  position: relative;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(10px) url(#glass-distortion2);
+  backdrop-filter: blur(10px) url(#glass-distortion2);
+}
+
+.premium-con-lq__glass4 {
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(10px) url(#glass-distortion2);
+  backdrop-filter: blur(10px) url(#glass-distortion2);
+}
+
+/*Glass 5*/
+.premium-lq__glass5 {
+  /*
+  * Added to pseudo element for better compatibility with double layered effect.
+  */
+}
+.premium-lq__glass5.premium-mega-content-container, .premium-lq__glass5.premium-sub-menu, .premium-lq__glass5.premium-menu-link, .premium-lq__glass5.pa-txt-sc__item-container {
+  overflow: hidden !important;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(6px) url(#glass-distortion3);
+  backdrop-filter: blur(6px) url(#glass-distortion3);
+}
+.premium-lq__glass5 .wrap-cover .fields-in-cover,
+.premium-lq__glass5 .countdown-amount {
+  position: relative;
+  overflow: hidden !important;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(6px) url(#glass-distortion3);
+  backdrop-filter: blur(6px) url(#glass-distortion3);
+}
+.premium-lq__glass5 .premium-dual-header-first-span {
+  position: relative;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(6px) url(#glass-distortion3);
+  backdrop-filter: blur(6px) url(#glass-distortion3);
+}
+.premium-lq__glass5 .premium-button {
+  position: relative;
+  overflow: hidden !important;
+  isolation: isolate;
+}
+.premium-lq__glass5 .premium-button:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  -webkit-backdrop-filter: blur(6px) url(#glass-distortion3);
+  backdrop-filter: blur(6px) url(#glass-distortion3);
+  isolation: isolate;
+}
+
+.premium-box-lq__glass5 .premium-dual-header-second-header {
+  position: relative;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(6px) url(#glass-distortion3);
+  backdrop-filter: blur(6px) url(#glass-distortion3);
+}
+
+.premium-con-lq__glass5 {
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(6px) url(#glass-distortion3);
+  backdrop-filter: blur(6px) url(#glass-distortion3);
+}
+
+/*Glass 6*/
+.premium-lq__glass6 {
+  /*
+  * Added to pseudo element for better compatibility with double layered effect.
+  */
+}
+.premium-lq__glass6.premium-mega-content-container, .premium-lq__glass6.premium-sub-menu, .premium-lq__glass6.premium-menu-link, .premium-lq__glass6.pa-txt-sc__item-container {
+  overflow: hidden !important;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(24px) url(#glass-distortion4);
+  backdrop-filter: blur(24px) url(#glass-distortion4);
+}
+.premium-lq__glass6 .wrap-cover .fields-in-cover,
+.premium-lq__glass6 .countdown-amount {
+  position: relative;
+  overflow: hidden !important;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(24px) url(#glass-distortion4);
+  backdrop-filter: blur(24px) url(#glass-distortion4);
+}
+.premium-lq__glass6 .premium-dual-header-first-span {
+  position: relative;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(24px) url(#glass-distortion4);
+  backdrop-filter: blur(24px) url(#glass-distortion4);
+}
+.premium-lq__glass6 .premium-button {
+  position: relative;
+  overflow: hidden !important;
+  isolation: isolate;
+}
+.premium-lq__glass6 .premium-button:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  -webkit-backdrop-filter: blur(24px) url(#glass-distortion4);
+  backdrop-filter: blur(24px) url(#glass-distortion4);
+  isolation: isolate;
+}
+
+.premium-box-lq__glass6 .premium-dual-header-second-header {
+  position: relative;
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(24px) url(#glass-distortion4);
+  backdrop-filter: blur(24px) url(#glass-distortion4);
+}
+
+.premium-con-lq__glass6 {
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(24px) url(#glass-distortion4);
+  backdrop-filter: blur(24px) url(#glass-distortion4);
+}
+
+.premium-world-clock__skin-1 [class*=glass].premium-world-clock__time-wrapper,
+.premium-world-clock__skin-5 [class*=glass].premium-world-clock__time-wrapper,
+.premium-world-clock__skin-6 [class*=glass].premium-world-clock__time-wrapper,
+.premium-world-clock__skin-7 [class*=glass].premium-world-clock__time-wrapper {
+  border-radius: 50%;
+}
+
+[class*=glass].premium-atext__text {
+  display: inline-block;
+}
+
+.premium-lq__shadow1 {
+  box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.6) inset !important;
+}
+
+.premium-lq__shadow2 {
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.65) inset !important;
+}
+
+.premium-lq__shadow3 {
+  box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.7) inset !important;
+}
+
+.premium-lq__shadow4 {
+  box-shadow: 0px 20px 15px -5px rgba(255, 255, 255, 0.5) inset !important;
+}
+
+.premium-lq__shadow5 {
+  box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.7) inset !important;
+}
+
+.premium-lq__shadow6 {
+  box-shadow: 0px -20px 25px -15px rgba(255, 255, 255, 0.5) inset !important;
+}
+
+.premium-lq__shadow7 {
+  box-shadow: 0 0 40px 5px rgba(255, 255, 255, 0.6) inset !important;
+}
+
+.premium-lq__shadow8 {
+  box-shadow: 0 15px 15px -10px rgba(255, 255, 255, 0.45) inset !important;
+}

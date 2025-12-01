@@ -1,0 +1,53 @@
+.elementor-add-new-section .pa-add-section-btn {
+	color: #fff !important;
+	background: #f47216 !important;
+}
+
+.e-preview--show-hidden-elements[data-elementor-device-mode="mobile"]
+	.elementor-edit-area-active
+	.elementor-hidden-mobile.premium-addons-element {
+	display: none;
+}
+
+.e-preview--show-hidden-elements[data-elementor-device-mode="tablet"]
+	.elementor-edit-area-active
+	.elementor-hidden-tablet.premium-addons-element {
+	display: none;
+}
+
+.e-preview--show-hidden-elements[data-elementor-device-mode="mobile_extra"]
+	.elementor-edit-area-active
+	.elementor-hidden-mobile_extra.premium-addons-element {
+	display: none;
+}
+
+.e-preview--show-hidden-elements[data-elementor-device-mode="tablet_extra"]
+	.elementor-edit-area-active
+	.elementor-hidden-tablet_extra.premium-addons-element {
+	display: none;
+}
+
+.e-preview--show-hidden-elements[data-elementor-device-mode="widescreen"]
+	.elementor-edit-area-active
+	.elementor-hidden-widescreen.premium-addons-element {
+	display: none;
+}
+
+.e-preview--show-hidden-elements[data-elementor-device-mode="desktop"]
+	.elementor-edit-area-active
+	.elementor-hidden-desktop.premium-addons-element {
+	display: none;
+}
+
+.pa-display-conditions-label {
+	position: absolute;
+	content: "DC";
+	background-color: rgb(240, 171, 252);
+	color: #000;
+	top: 0;
+	left: 0;
+	font-size: 12px;
+	padding: 1px 4px;
+	font-weight: 600;
+	cursor: pointer;
+}

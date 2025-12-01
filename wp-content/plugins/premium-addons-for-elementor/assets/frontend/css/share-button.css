@@ -1,0 +1,189 @@
+/*
+* Share Button in Instagram, TikTok and Pinterest Feed.
+*/
+.premium-instafeed-share-container,
+.premium-pinterest-share-container,
+.premium-tiktok-share-container {
+  padding: 2px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.premium-instafeed-share-container .fa.fa-share,
+.premium-pinterest-share-container .fa.fa-share,
+.premium-tiktok-share-container .fa.fa-share {
+  color: transparent;
+}
+.premium-instafeed-share-container .fa.custom-fa,
+.premium-pinterest-share-container .fa.custom-fa,
+.premium-tiktok-share-container .fa.custom-fa {
+  font-size: 17px;
+  -webkit-text-stroke-color: #595959;
+  color: transparent;
+}
+
+.premium-instafeed-share-container .fa.fa-share,
+.premium-pinterest-share-container .fa.fa-share {
+  -webkit-text-stroke-width: 2px;
+}
+
+.premium-tiktok-share-container .fa.fa-share {
+  -webkit-text-stroke-width: 1px;
+}
+
+.premium-instafeed-share-container {
+  background-color: #fff;
+}
+
+.premium-pinterest-share-container,
+.premium-tiktok-share-container {
+  border-radius: 12px;
+}
+
+.premium-instafeed-share-menu,
+.premium-pinterest-share-menu,
+.premium-tiktok-share-menu {
+  position: absolute;
+  z-index: 100;
+  padding: 20px 0;
+  opacity: 0;
+  bottom: 40px;
+  visibility: hidden;
+  background-color: #fff;
+  width: -webkit-max-content;
+  width: max-content;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.premium-instafeed-share-menu,
+.premium-pinterest-share-menu {
+  left: 10px;
+}
+
+.premium-tiktok-share-menu {
+  right: 0;
+  border-radius: 20px;
+  padding: 15px 0;
+}
+
+.premium-pinterest-share-button,
+.premium-tiktok-share-button,
+.premium-instafeed-share-button {
+  padding: 12px;
+  position: relative;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.premium-instafeed-share-button:hover .premium-instafeed-share-menu {
+  visibility: visible;
+  opacity: 1;
+  z-index: 100;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.premium-pinterest-share-button:hover .premium-pinterest-share-menu {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1000;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.premium-tiktok-share-button:hover .premium-tiktok-share-menu {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1000;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.premium-instafeed-sharer,
+.premium-pinterest-sharer,
+.premium-tiktok-sharer {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 22px;
+  color: #595959;
+}
+
+.premium-instafeed-share-item,
+.premium-pinterest-share-item,
+.premium-tiktok-share-item {
+  word-break: keep-all !important;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20px;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 30px;
+  font-weight: 200;
+  position: relative;
+  z-index: 1;
+}
+.premium-instafeed-share-item *,
+.premium-instafeed-share-item ::before,
+.premium-instafeed-share-item ::after,
+.premium-pinterest-share-item *,
+.premium-pinterest-share-item ::before,
+.premium-pinterest-share-item ::after,
+.premium-tiktok-share-item *,
+.premium-tiktok-share-item ::before,
+.premium-tiktok-share-item ::after {
+  word-break: keep-all !important;
+}
+.premium-instafeed-share-item i,
+.premium-pinterest-share-item i,
+.premium-tiktok-share-item i {
+  text-align: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 1.25em;
+}
+
+.premium-tiktok-share-item {
+  padding: 6px 20px;
+  line-height: 0;
+}
+
+.premium-instafeed-share-text,
+.premium-pinterest-share-text,
+.premium-tiktok-share-text {
+  display: inline-block;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 13px;
+  color: #595959;
+}
+
+.if-fb {
+  color: #4674d1;
+}
+
+.if-tw {
+  color: #23abff;
+}
+
+.if-pi {
+  color: #e60023;
+}
+
+.if-link {
+  color: #000;
+}
