@@ -7,7 +7,7 @@ La práctica enfatiza los procesos de instalación, personalización visual, ges
 
 El e-commerce está diseñado para la venta de **productos deportivos** tales como Ropa, Tenis y Accesorios para el entrenamiento.
 
-## 💻 Entorno Técnico
+## Entorno Técnico
 
 | Herramienta | Función Principal |
 | :--- | :--- |
@@ -49,6 +49,7 @@ El proyecto está configurado y optimizado para ser ejecutado en entornos de ser
     * **Contraseña de MySQL:** (Vacía)
     
     > **NOTA:** Si tu configuración de MySQL local es diferente, **deberás actualizar** los valores correspondientes dentro del archivo `wp-config.php`.
+    
     > **NOTA:** También se agregó al repositorio la carpeta **assets** donde se encuentran la imagnes utilizadas para el proyecto.
 
 2.  **Inicio del Sitio:** Una vez completados los pasos anteriores, la tienda en línea estará accesible mediante la siguiente URL:
